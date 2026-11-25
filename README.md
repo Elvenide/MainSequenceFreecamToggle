@@ -23,7 +23,7 @@ Toggle built-in **Spectator Mode** and **Hide HUD** together with a single keypr
 ### Configuration
 
 - **In-Game**: Open **Settings → Controls** and look for **Cinematic Freecam** to rebind the key.
-- **Config File**: Stored in `MainSequenceFreecamToggle/config.json` under `"CinematicFreecamKey"`.
+- **Config File**: Stored in `ElvenidesFreecamToggle/config.json` under `"CinematicFreecamKey"`.
 
 ## Credits
 

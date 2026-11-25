@@ -24,7 +24,7 @@ Choose either **MSCoreManager** (recommended) or **Manual UE4SS Installation** b
    - Paste in `https://github.com/Elvenide/MainSequenceFreecamToggle` to install automatically from GitHub Releases (MSCoreManager uses `manifest.txt` and **$(System.Collections.Hashtable.ZipBase)-v<version>.zip**).
    - *(Alternatively, if installing from a local archive in MSCoreManager, download **$(System.Collections.Hashtable.ZipBase)-v<version>.zip** from [github.com/Elvenide/MainSequenceFreecamToggle/releases](https://github.com/Elvenide/MainSequenceFreecamToggle/releases).)*
 3. **Launch Main Sequence**:
-   - **Elvenide's Freecam Toggle** will automatically create/update `MainSequenceFreecamToggle\config.json` with default keybinds on first launch.
+   - **Elvenide's Freecam Toggle** will automatically create/update `ElvenidesFreecamToggle\config.json` with default keybinds on first launch.
    - Open **Settings → Controls** at any time to rebind hotkeys.
 
 ### Option 2: Manual UE4SS Installation
@@ -44,24 +44,24 @@ Choose either **MSCoreManager** (recommended) or **Manual UE4SS Installation** b
      ```
 2. **Install Elvenide's Freecam Toggle**:
    - Download **$(System.Collections.Hashtable.ZipBase)-v<version>.zip** from [github.com/Elvenide/MainSequenceFreecamToggle/releases](https://github.com/Elvenide/MainSequenceFreecamToggle/releases).
-   - Open the zip, navigate into its `Mods\` folder, and copy the `MainSequenceFreecamToggle` folder into:
+   - Open the zip, navigate into its `Mods\` folder, and copy the `ElvenidesFreecamToggle` folder into:
      ```
-     Main Sequence\Windows\MainSequence\Binaries\Win64\ue4ss\Mods\MainSequenceFreecamToggle\
+     Main Sequence\Windows\MainSequence\Binaries\Win64\ue4ss\Mods\ElvenidesFreecamToggle\
      ```
-     *(You can safely leave `mscore.mod` inside `MainSequenceFreecamToggle\`—UE4SS ignores it.)*
-   - Ensure `MainSequenceFreecamToggle\enabled.txt` exists (an empty file is fine).
-   - Open `ue4ss\Mods\mods.txt` and add `MainSequenceFreecamToggle : 1` **above** `Keybinds : 1`:
+     *(You can safely leave `mscore.mod` inside `ElvenidesFreecamToggle\`—UE4SS ignores it.)*
+   - Ensure `ElvenidesFreecamToggle\enabled.txt` exists (an empty file is fine).
+   - Open `ue4ss\Mods\mods.txt` and add `ElvenidesFreecamToggle : 1` **above** `Keybinds : 1`:
      ```ini
-     MainSequenceFreecamToggle : 1
+     ElvenidesFreecamToggle : 1
 
      ; Built-in keybinds, do not move up!
      Keybinds : 1
      ```
 3. **Launch Main Sequence**:
-   - **Elvenide's Freecam Toggle** will automatically create/update `MainSequenceFreecamToggle\config.json` with default keybinds on first launch.
+   - **Elvenide's Freecam Toggle** will automatically create/update `ElvenidesFreecamToggle\config.json` with default keybinds on first launch.
    - Open **Settings → Controls** at any time to rebind hotkeys.
 
 ## Uninstalling
 
-- Remove or rename `MainSequenceFreecamToggle\enabled.txt` (or delete the `MainSequenceFreecamToggle` folder and remove `MainSequenceFreecamToggle : 1` from `mods.txt`).
+- Remove or rename `ElvenidesFreecamToggle\enabled.txt` (or delete the `ElvenidesFreecamToggle` folder and remove `ElvenidesFreecamToggle : 1` from `mods.txt`).
 - Your saves remain completely intact with no missing-mod dependencies.
